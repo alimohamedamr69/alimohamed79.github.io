@@ -1,0 +1,390 @@
+body {
+    margin: 0;
+    padding:0;
+    
+} 
+div.main {
+    height: 680px;
+    background-image: url(Images/new.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+} 
+div.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background: rgba(0, 0, 0, 0.6);
+}
+* {
+    font-family: arial;
+    
+}
+
+div.navbar a {
+    color: white;
+    margin: 20px;
+} 
+div.navbar a.enter {
+   padding:10px; 
+   border-radius: 8px; 
+   border: 2px SOLID WHITE;
+background-color: transparent;
+color: white;
+border-color: blue;
+
+
+}
+div.details {
+    text-align: center;
+    padding-top: 150px;
+    color:white;
+}
+div.details button {
+    padding:10px; 
+   border-radius: 8px; 
+   border: 2px SOLID WHITE;
+background-color: transparent;
+color: darkturquoise;
+background-color: white;
+    
+    
+}
+div.upcoming h1 {
+text-align: center;    
+}
+div.game {
+	text-align: center;
+	
+}
+
+
+div.games {
+display:flex;
+width:60%;
+margin:auto;
+justify-content: space-around;    
+align-items: center;    
+
+}
+div.games div.img {
+ width: 120px;
+height: 120px;
+border-radius: 120px;
+background-image: url(Images/minecraft.jpg);
+background-size: cover;
+background-position: center;
+}
+div.game2 div.img {
+	background-image: url(Images/fortnite.jpg)
+	
+	
+} 
+div.game3 div.img {
+	background-image: url(Images/pes2020.jpg);
+	
+}
+div.game4 div.img {
+	background-image: url(Images/roblox.jpg);
+	
+	
+}
+
+
+
+
+
+
+
+div.maingame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+    margin: auto;
+    background-color: black;
+   color:white;
+  padding: 50px;
+  border-radius: 20px;
+margin-top:50px;
+line-height: 23px;
+}
+
+
+
+div.maingame button {
+    padding:10px; 
+ border-radius: 8px;   
+background-color: aqua;
+color: white;
+border: none;
+    
+    
+}
+div.maingame img{
+    margin-right: -100px;
+    border-radius: 20px;
+    
+}
+div.postscontent h1,div.postscontent p {
+text-align: center;    
+}
+
+
+div.posts {
+    display:flex;
+width:70%;
+margin:auto;
+justify-content: space-around;    
+align-items: center;
+    }
+div.post {
+    margin: 20px;
+    background-color: black;
+    color: white;
+border-radius: 8px;
+}
+div.post p,div.post h5 {
+    display: inline-block;
+    
+}
+div.post h3,div.post p,div.post h5 {
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+div.post p {
+    font-size: 15px;
+    text-align: left;
+}
+div.post1 div.img,div.post2 div.img,div.post3 div.img        {
+    background-image: url(Images/post1.jpg);
+    height: 180px;
+    background-size: cover;
+ background-position: center;
+border-radius: 8px;
+}
+div.post2 div.img {
+    background-image: url(Images/post2.jpg);
+    height: 180px;
+}
+div.post3 div.img {
+    background-image: url(Images/post3.jpg);
+    height: 180px;
+}
+div.testis {
+  display:flex;
+width:50%;
+margin:auto;
+justify-content: space-around;    
+align-items: center;   
+    
+    
+}
+div.testi {
+    background-color: black;
+    color:white;
+    margin:20px;
+ text-align: center;
+border-radius: 8px;
+}
+div.test h1 {
+    text-align: center;
+   margin-bottom: 80px; 
+}
+
+
+div.testi1 div.img {
+    background-image: url(Images/gamer1.png);
+     height: 80px;
+}
+div.testi2 div.img {
+    background-image: url(Images/gamer2.png);
+    height: 80px;
+}
+div.testis div.img {
+    width: 100px;
+    background-color: white;
+    height: 100px;
+   margin: auto;
+ border-radius: 100px;
+margin-top: -50px;
+background-image: url(Images/gamer1.png);
+background-size: cover;
+background-position: center;
+border: 1px solid black;
+}
+div.pricing h2 {
+    text-align: center;
+    
+}
+div.prices {
+    display: flex;
+    justify-content: center;
+  width: 60%;
+margin:auto;
+text-align: center;
+}
+div.price {
+ width: 30%;   
+ background-color: darkcyan;
+color: white;
+margin: 8px;
+padding-bottom: 15px;
+padding-top: 15px;
+border-radius: 8px;
+}
+div.price button {
+   padding:10px; 
+ border-radius: 8px;   
+background-color: transparent;
+color: white;
+border: 1px solid white; 
+    
+}
+
+
+div.planprice {
+  background-color: darkblue;
+  padding: 15px;  
+}
+
+div.planprice h3 {
+    margin: 0;
+    
+}
+div.joinform {
+    display:flex;
+    justify-content: center;
+    margin:auto;  
+  margin-top: 50px;
+    width: 60%;
+border: 1px solid black;
+border-radius: 10px;
+}
+ div.joinform div.Image {
+    width: 35%;
+    border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+div.joinform div.Form{
+    width: 65%;
+}
+div.joinform div.Image {
+    background-image: url(Images/hl.jpg);
+   background-size: cover;
+    background-position: top;
+   height: 400px;
+  padding: 15px;
+}
+form input, form button {
+    padding: 10px;
+    font-size: 16px; 
+   border: 1px solid cadetblue; 
+  border-radius: 5px;
+ display:block;
+margin: 10px;
+}
+form {
+width: 60%;
+ margin: auto;   
+display: flex;    
+flex-direction: column;    
+padding-top: 100px; 
+}
+form button {
+  background-color: purple;
+  color: white;
+}
+div.JOINNAVBAR {
+    background-color: black;
+    
+}
+.footer {
+    color:black;
+    background-color: aqua;
+    text-align: center;
+   padding:10px;
+   margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
